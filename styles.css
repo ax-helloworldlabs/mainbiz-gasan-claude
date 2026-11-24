@@ -461,3 +461,8 @@ p, li, small, .check-list span { text-wrap: pretty; }
 .resource-card.pending { background: #f6f8fa; border-style: dashed; cursor: default; }
 .resource-card.pending:hover { transform: none; border-color: var(--line); }
 .resource-card.pending .resource-bottom { color: var(--muted); }
+
+/* 2026-11-24: 교육 자료를 준비물 바로 아래로 이동 — 같은 띠 배경이 이어지지 않게 일정·장소는 기본 배경 */
+.resources-section { border-top: 1px solid #dce5ec; }
+.place-section { background: transparent; border-top: 0; }
+.section-heading .ln { display: block; }
